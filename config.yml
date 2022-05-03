@@ -1,4 +1,4 @@
-token: "lip_YUzSuQwtfXkqnbj6LDzI"    # Lichess OAuth2 Token.
+token: "lip_Wbzztynl0Y1fOnqLRDsL"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -70,7 +70,8 @@ challenge:                   # Incoming challenges.
     - standard
 #   - fromPosition
   time_controls:             # Time controls to accept.
-    - blitz
+    - bullet
+
   modes:                     # Game modes to accept.
     - casual                 # Unrated games.
     - rated                  # Rated games - must comment if the engine doesn't try to win.
